@@ -84,7 +84,7 @@ function n20_Valid_Parentheses(string $s) {
                 // item 44
                 // скобка ОТКРЫВАЮЩАЯ
                 // item 31
-                array_push($stack, $char);
+                $stack[] = $char;
             }
             // item 190003
             $i++;
