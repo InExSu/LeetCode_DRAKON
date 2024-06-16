@@ -44,7 +44,9 @@ function n20_Valid_Parentheses(string $s) {
     // item 43
     $ret = true;
     // item 13
-    if (even($sLen)) {
+    if (// чётная
+
+!$iLen & 1) {
         // item 34
         $mapClosed = [
         	')' => '(',
@@ -71,7 +73,7 @@ function n20_Valid_Parentheses(string $s) {
                 // item 24
                 if (bool_OR(
 	empty($stack),
-	array_pop($stack) !== $mapClosed[$char]);) {
+	array_pop($stack) !== $mapClosed[$char])) {
                     // item 42
                     $ret = false;
                     break;
