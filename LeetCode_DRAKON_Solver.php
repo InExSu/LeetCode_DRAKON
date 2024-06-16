@@ -47,6 +47,8 @@ function n20_Valid_Parentheses(string $s) {
             } else {
                 break;
             }
+            // item 33
+            $char = $s[$i];
             // item 21
             if (in_array($char, $mapColsed)) {
                 // item 24
