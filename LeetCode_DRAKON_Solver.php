@@ -40,7 +40,7 @@ function n20_Valid_Parentheses(string $s) {
     
     */
     // item 12
-    $sLen = strlen($s);
+    $iLen = strlen($s);
     // item 43
     $ret = true;
     // item 13
