@@ -36,6 +36,12 @@ function n20_Valid_Parentheses(string $s) {
     $ret = true;
     // item 13
     if (even($sLen)) {
+        // item 34
+        $mapColsed = [
+        	')' => '(',
+        	'}' => '{',
+        	']' => '['
+        ];
         // item 18
         $iLen = strlen($s);
         // item 190001
