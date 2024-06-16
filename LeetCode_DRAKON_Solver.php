@@ -99,8 +99,8 @@ function n20_Valid_Parentheses(string $s) {
 
 function n20_Valid_Parentheses_Test() {
     // item 11
-    $s = 
-    $res = n20_Valid_Parentheses('[');
+    $s =
+    $res = n20_Valid_Parentheses();
     
     assert($res === false, join(';'));
     
