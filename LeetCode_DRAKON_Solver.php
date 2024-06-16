@@ -104,7 +104,7 @@ function n20_Valid_Parentheses_Test() {
     assert($res === false, $s);
 
     $s =
-    $res = n20_Valid_Parentheses('[(');
+    $res = n20_Valid_Parentheses();
     
     assert($res === false);
     
