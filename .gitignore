@@ -1,0 +1,14 @@
+.idea/
+/*.drn
+/*.json
+/*.log
+/*.pdf
+/*.txt
+/batches_curlExec
+/composer.phar
+/table*
+/task.tasks.list.txt
+/~$*.*
+logs/
+_Versions/
+vendor/
